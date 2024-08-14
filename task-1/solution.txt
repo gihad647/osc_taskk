@@ -1,0 +1,12 @@
+mkdir Gihad
+touch Gihad/one.txt Gihad/two.txt Gihad/three.txt Gihad/four.txt
+mkdir Gihad/BAD
+touch Gihad/BAD/bad.txt
+mv Gihad/one.txt ~/Downloads/
+cp ~/Downloads/one.txt ~/Downloads/copy.txt
+cd ~/Gihad
+nano two.txt
+echo "1-hello OSC 2-hello OSC 3-hello OSC 4-hello OSC 5-hello OSC 6-hello OSC 7-hello OSC 8-hello OSC" > three.txt
+mv three.txt hello.txt
+rm four.txt
+rm -r BAD
